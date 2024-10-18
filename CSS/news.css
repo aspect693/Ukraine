@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&display=swap');
+body {
+    background-color: black;
+    text-align: center;
+    color: #ffffff;
+    font-size: 200%;
+    font-family:Josefin Sans ;
+    font-family:Comfortaa;
+    padding: 20px;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none; 
+    text-decoration: none; 
+    color: inherit; 
+}
+
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #fff;
+}
+/*
+.search input {
+    padding: 5px;
+    border: none;
+    border-radius: 5px;
+    width: 200px;
+}
+*/
+.open {
+    position: absolute;
+    top: 50px;
+    right: 0px;
+    transform: translateY(-50%);
+    cursor: pointer;
+    width: 30px; 
+    height: 30px;
+    left: 50px;
+}
+.side-menu {
+    width: 0;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #000;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 250px;
+    z-index: 1000;
+}
+
+.side-menu a {
+    font-family: url('https://fonts.googleapis.com/css2?family=Dela+Gothic+One&display=swap');
+    padding: 10px 40px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #ffffff;
+    display: block;
+    transition: 0.3s;
+}
+
+.side-menu a:hover {
+    color: orange;
+    background-color:rgb(51, 49, 49);
+}
+
+.side-menu .close {
+    position: absolute;
+    top: 20px;
+    right: 25px;
+    font-size: 30px;
+}
+
+.open {
+    cursor: pointer;
+}
+.main 
+{
+border-radius: 25px;
+margin-left: auto;
+margin-right: auto;
+margin-top: 40px;
+background-color: #ffffff;
+width: 900px;
+height: 2550px;
+position: relative;
+}
+.new1
+{
+    text-align: justify;
+padding: 30px;
+padding-top: 30px;
+
+
+}
+.nh1
+{
+    text-align: center;
+    border-radius: 0px;  
+    background-color: rgb(207, 199, 199);
+    color: black;
+    
+}
+.n1
+{
+    color: #000;
+    font-size: 20px;
+}
+h6
+{
+    text-align: center;
+    font-size: 30px;
+}
+.img.news
+{
+    margin: 10px;
+}
+
+
+
+
+
+
+.info-section {
+    background-color: #000;
+
+    height: 400px;
+}
+.info-section h1 {
+    font-size: 35px;
+    font-weight: bold;
+    text-align: left;
+    margin-bottom: 20px;
+    margin-left: 100px;
+}
+.info-section h2 {
+    font-size: 15px;
+    font-weight: bold;
+    text-align: right;
+    margin-bottom: 20px;
+    margin-left: 100px;
+}
