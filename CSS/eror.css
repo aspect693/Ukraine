@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&display=swap');
+body {
+    background-color: black;
+    text-align: center;
+    color: #ffffff;
+    font-size: 200%;
+    font-family:Josefin Sans ;
+    font-family:Comfortaa;
+    padding: 20px;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none; 
+    text-decoration: none; 
+    color: inherit; 
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #fff;
+}
+.open {
+    position: absolute;
+    top: 50px;
+    right: 0px;
+    transform: translateY(-50%);
+    cursor: pointer;
+    width: 30px; 
+    height: 30px;
+    left: 50px;
+}
+.side-menu {
+    width: 0;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #000;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 250px;
+    z-index: 1000;
+}
+
+.side-menu a {
+    font-family: url('https://fonts.googleapis.com/css2?family=Dela+Gothic+One&display=swap');
+    padding: 10px 40px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #ffffff;
+    display: block;
+    transition: 0.3s;
+}
+
+.side-menu a:hover {
+    color: orange;
+    background-color:rgb(51, 49, 49);
+}
+
+.side-menu .close {
+    position: absolute;
+    top: 20px;
+    right: 25px;
+    font-size: 30px;
+}
+
+.open {
+    cursor: pointer;
+}
+.error h1
+{
+    font-size: 50px;
+    font-weight: bold;
+    margin: 0%;
+    margin-top: 15%;  
+}
+.error h2
+{
+    font-size: 20px;
+    font-weight: bold;
+    margin: 0%;
+    margin-top: 2%;
+    text-align: left;
+    position: fixed;
+    left: 38%;
+}
